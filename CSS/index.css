@@ -61,7 +61,7 @@ h2 {
 }
 
 img {
-    width: 80vw;
+    width: 70vw;
     height: 60vh;
     object-fit: cover;
     margin: 0 auto; /* Margem superior e inferior de 20 pixels e centralizar horizontalmente */
@@ -94,3 +94,21 @@ video {
 .carousel-arrow-next {
     right: 20px;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
