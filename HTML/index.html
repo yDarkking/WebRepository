@@ -6,21 +6,19 @@
   <title>Document</title>
   <link rel="stylesheet" href="../CSS/index.css">
   <link rel="stylesheet" href="../CSS/teste.css">
-
 </head>
 <body>
-  <header></header>
-   <div id="st-container" class="st-container">
+  <div id="st-container" class="st-container">
     <!-- Sidebar -->
     <nav class="st-menu st-effect-12" id="menu-12">
       <h2 class="icon icon-stack">WebProject</h2>
       <ul>
         <li><a class="icon icon-data" href="index.html">HOME</a></li>
-        <li><a class="icon icon-location" href="pagina2.html">Imagens</a></a></li>
-        <li><a class="icon icon-study"href="pagina3.html">Sobre</a></li>
+        <li><a class="icon icon-location" href="pagina2.html">Imagens</a></li>
+        <li><a class="icon icon-study" href="pagina3.html">Sobre</a></li>
         <li><a class="icon icon-photo" href="#">Suporte</a></li>
         <li><a class="icon icon-wallet" href="#">Credits</a></li>
-        <li><a class="icon icon-wallet" href="#">Espaço Desenvolvedor</a></li>
+        <li><a class="icon icon-wallet" href="login.html">Espaço Desenvolvedor</a></li>
       </ul>
     </nav>
 
@@ -31,77 +29,81 @@
           <header class="codrops-header">
             <h1 class="titulo">WebProject</h1>
             <h2>Absolute Cinema</h2>
-            <p><i>The Game Of The Year</i> <b>2023</b></p> 
+            <p><i>The Game Of The Year</i> <b>2023</b></p>
           </header>
 
-          <button id="st-trigger-effects" data-effect="st-effect-12">Menu</button> <!-- Botão movido aqui -->
-          
-          <div class="main clearfix">
+          <button id="st-trigger-effects" data-effect="st-effect-12">Menu</button>
 
-              <img src= "../imagens/imagem2.png" class="img">
-                <p>Para saber mais acesse o site oficial:<a href="https://www.thewitcher.com/us/pt-br/witcher3" 
-                    target="_blank" rel="nofollow">clicando aqui</a></p>
-                <hr>
-                <h3><i>O Porque Jogar?</i></h3>
-                <ol type = "I">
-                    <li>Pontos positivos:</li>
-                    <ul type =  "a">
-                        <li>História rica é envolvente</li>
-                        <li>Personagens bem desenvolvidos</li>
-                        <li>Jogabilidade variada e emocionante</li>
-                        <li>Gráficos impressionantes</li>
-                        <li>Mundo aberto enorme e detalhado</li>
-                        <li>Muitas missões secundárias para completar</li>
-                        <li>Alto nível de replayability</li> 
-                    </ul>
-                    <li>Pontos negativos:</li>
-                    <ul type="a">
-                        <li>O jogo e muito longo</li>
-                        <li>Sitema de combate meio desajeitado </li>
-                        <li>Mundo aberto muito grande e vazio</li>
-                    </ul>  
-                </ol>
-                <hr>
-                <h3>Conheça a trilha sonora:</h3>
-                <ol>
-                    <li>Gerald Of Rivia</li>
-                        <ul type = "a">
-                            <li><audio src="../audio/Geralt of Rivia.mp3" controls autoplay></audio></li>
-                        </ul>
-                        <br>
-                        <li>Aen Seidhe</li>
-                        <ul type = "a">
-                            <li><audio src="../audio/Aen Seidhe.mp3" controls autoplay></audio></li>
-                        </ul>
-                        <br>
-                        <li>Commanding The Furry</li>
-                        <ul type = "a">
-                            <li><audio src="../audio/Commanding The Fury.mp3" controls autoplay></audio></li>
-                        </li>
-                        
-                </ol>
-                <hr>
-                <table>
-                  <tr>
-                    <th>Nome</th>
-                    <th>idade</th>
-                    <th>Papel/th>
-                  </tr>
-                  <tr>
-                    <td>John Doe</td>
-                    <td>30</td>
-                    <td>Software Engineer</td>
-                  </tr>
-                  <tr>
-                    <td>Jane Doe</td>
-                    <td>25</td>
-                    <td>Marketing Manager</td>
-                  </tr>
-                </table>
-                <p><a href="pagina2.html">Proxima pagina</a></p>
-                <hr>
-                <p><a href="pagina3.html">PAGINA COM IMAGEM DE FUNDO</a></p>
-            
+          <div class="main clearfix">
+            <div class="content-box">
+              <img src="../imagens/imagem2.png" class="img">
+              <p>Para saber mais acesse o site oficial: <a href="https://www.thewitcher.com/us/pt-br/witcher3" target="_blank" rel="nofollow">clicando aqui</a></p>
+            </div>
+            <hr>
+            <div class="content-box">
+              <h3><i>O Porque Jogar?</i></h3>
+              <ol type="I">
+                <li>Pontos positivos:</li>
+                <ul type="a">
+                  <li>História rica é envolvente</li>
+                  <li>Personagens bem desenvolvidos</li>
+                  <li>Jogabilidade variada e emocionante</li>
+                  <li>Gráficos impressionantes</li>
+                  <li>Mundo aberto enorme e detalhado</li>
+                  <li>Muitas missões secundárias para completar</li>
+                  <li>Alto nível de replayability</li>
+                </ul>
+                <li>Pontos negativos:</li>
+                <ul type="a">
+                  <li>O jogo é muito longo</li>
+                  <li>Sistema de combate meio desajeitado</li>
+                  <li>Mundo aberto muito grande e vazio</li>
+                </ul>
+              </ol>
+            </div>
+            <hr>
+            <div class="content-box">
+              <h3>Conheça a trilha sonora:</h3>
+              <ol>
+                <li>Gerald Of Rivia</li>
+                <ul type="a">
+                  <li><audio src="../audio/Geralt of Rivia.mp3" controls autoplay></audio></li>
+                </ul>
+                <br>
+                <li>Aen Seidhe</li>
+                <ul type="a">
+                  <li><audio src="../audio/Aen Seidhe.mp3" controls autoplay></audio></li>
+                </ul>
+                <br>
+                <li>Commanding The Fury</li>
+                <ul type="a">
+                  <li><audio src="../audio/Commanding The Fury.mp3" controls autoplay></audio></li>
+                </ul>
+              </ol>
+            </div>
+            <hr>
+            <div class="content-box">
+              <table>
+                <tr>
+                  <th>Nome</th>
+                  <th>Idade</th>
+                  <th>Papel</th>
+                </tr>
+                <tr>
+                  <td>John Doe</td>
+                  <td>30</td>
+                  <td>Software Engineer</td>
+                </tr>
+                <tr>
+                  <td>Jane Doe</td>
+                  <td>25</td>
+                  <td>Marketing Manager</td>
+                </tr>
+              </table>
+              <p><a href="pagina2.html">Próxima página</a></p>
+              <hr>
+              <p><a href="pagina3.html">PAGINA COM IMAGEM DE FUNDO</a></p>
+            </div>
           </div>
         </div>
       </div>
